@@ -21,8 +21,9 @@ class DailyHours:
 
 
 class Entry:
-    def __init__(self, name, projectid, ticketid, duration, date):
+    def __init__(self, name, jiraload, projectid, ticketid, duration, date):
         self.name = name
+        self.jiraload = jiraload
         self.projectid = projectid
         self.ticketid = ticketid
         self.duration = duration
@@ -30,6 +31,9 @@ class Entry:
 
     def get_name(self):
         return self.name
+
+    def jira_load(self):
+        return self.jiraload
 
     def get_projectid(self):
         return self.projectid
