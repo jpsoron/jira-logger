@@ -1,2 +1,2 @@
-def jira_loader():
+def jira_loader(jira_entries, non_jira_entries):
     pass
