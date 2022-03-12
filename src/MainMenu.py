@@ -1,6 +1,6 @@
 import pandas
 
-from src.fun import JiraHourLogger, TextGenerator
+from src.fun import JiraTimeLogger, TextGenerator
 from src.obj.Entry import Entry
 
 class MainMenu:
