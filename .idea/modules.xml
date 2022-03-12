@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/carga-horas.iml" filepath="$PROJECT_DIR$/.idea/carga-horas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../jira-logger/.idea/jira-logger.iml" filepath="$PROJECT_DIR$/../jira-logger/.idea/jira-logger.iml" />
     </modules>
   </component>
 </project>

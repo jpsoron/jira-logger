@@ -1,11 +1,16 @@
 import pandas
 
-from src import TextGen, JiraLoader
+from src import TextGen, JiraHourLogger
 from src.obj.Entry import Entry
 
 def start():
     all_entries = AllEntries("Sample")
-    
+    main_menu(all_entries)
+    pass
+
+def main_menu(all_entries):
+    #TODO
+    pass
 
 class AllEntries:
 
@@ -19,16 +24,16 @@ class AllEntries:
 
     def read_entries(self):
         excel_sheet = pandas.read_excel(self.filepath)
-        for i in self.excel_sheet["Date"]:
-            if self.excel_sheet["JiraIgnore"][i].__equals__("TRUE"):
-                entry = Entry(self.excel_sheet["Project"][i], self.excel_sheet["Issue"][i],
-                              self.excel_sheet["Title"][i], self.excel_sheet["Description"][i],
-                              self.excel_sheet["Date"][i], self.excel_sheet["Hours"][i], True)
+        for i in excel_sheet["Date"]:
+            if excel_sheet["JiraIgnore"][i].__equals__("TRUE"):
+                entry = Entry(excel_sheet["Project"][i], excel_sheet["Issue"][i],
+                              excel_sheet["Title"][i], excel_sheet["Description"][i],
+                              excel_sheet["Date"][i], excel_sheet["Hours"][i], True)
                 self.non_jira_entries.append(entry)
             else:
-                entry = Entry(self.excel_sheet["Project"][i], self.excel_sheet["Issue"][i],
-                              self.excel_sheet["Title"][i], self.excel_sheet["Description"][i],
-                              self.excel_sheet["Date"][i], self.excel_sheet["Hours"][i], False)
+                entry = Entry(excel_sheet["Project"][i], excel_sheet["Issue"][i],
+                              excel_sheet["Title"][i], excel_sheet["Description"][i],
+                              excel_sheet["Date"][i], excel_sheet["Hours"][i], False)
                 self.jira_entries.append(entry)
 
     def get_jira_entries(self):
