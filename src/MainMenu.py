@@ -1,16 +1,20 @@
 import pandas
 
-from src import TextGen, JiraHourLogger
+from src.fun import JiraHourLogger, TextGenerator
 from src.obj.Entry import Entry
 
-def start():
-    all_entries = AllEntries("Sample")
-    main_menu(all_entries)
-    pass
+class MainMenu:
 
-def main_menu(all_entries):
-    #TODO
-    pass
+    def __init__(self, filepath):
+        self.all_entries = AllEntries(filepath)
+
+    def jira_logger(self, email, api_token):
+        responses = JiraHourLogger.jira_log_hours(email, api_token, self.all_entries.get_jira_entries())
+        pass
+
+    def text_gen(self):
+        TextGenerator.text_gen(self.all_entries.get_jira_entries(), self.all_entries.get_non_jira_entries())
+        pass
 
 class AllEntries:
 
