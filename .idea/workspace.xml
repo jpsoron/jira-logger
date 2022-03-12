@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../jira-logger/src/MainMenuFront.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jira-logger/src/fun/JiraHourLogger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jira-logger/src/fun/TextGenerator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jira-logger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jira-logger/src/JiraHourLogger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jira-logger/src/MainMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/src/MainMenu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jira-logger/src/TextGen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jira-logger/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
