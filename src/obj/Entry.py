@@ -1,9 +1,9 @@
 class Entry:
-    def __init__(self, project_name, issue_no, title, description, date, hours, jira_ignore):
+    def __init__(self, project_name, issue_no, title, comment, date, hours, jira_ignore):
         self.project_name = project_name
         self.issue_no = issue_no
         self.title = title
-        self.description = description
+        self.comment = comment
         self.date = date
         self.hours = hours
         self.jira_ignore = jira_ignore
@@ -18,8 +18,8 @@ class Entry:
     def get_title(self):
         return self.title
 
-    def get_description(self):
-        return self.description
+    def get_comment(self):
+        return self.comment
 
     def get_date(self):
         return self.date
