@@ -1,5 +1,5 @@
 from src.fun import JiraTimeLogger, TextGenerator
-from src.obj.AllEntries import AllEntries
+from src.obj.AllEntriesObject import AllEntries
 
 class MainMenu:
 
@@ -13,7 +13,7 @@ class MainMenu:
 
     def jira_validate_changes(self):
         failed_changes = []
-        for i in self.responses:
+        for i in range(len(self.responses)):
             if self.responses[i].status_code != 201:
                 failed_changes.append(self.responses[i])
         if not failed_changes:
