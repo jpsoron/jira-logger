@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Jira API FUCKING WORKS!!!!! Need to test more">
+    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Minor fixes">
       <change beforePath="$PROJECT_DIR$/../jira-logger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jira-logger/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jira-logger/src/MainMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/src/MainMenu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jira-logger/src/obj/AllEntriesObject.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/src/obj/AllEntriesObject.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jira-logger/src/obj/Entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/src/obj/Entry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jira-logger/src/MainMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/jira-logger/MainMenu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jira-logger/src/MainMenuFront.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/jira-logger/MainMenuFront.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jira-logger/src/fun/JiraTimeLogger.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/jira-logger/fun/JiraTimeLogger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jira-logger/src/fun/TextGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/jira-logger/fun/TextGenerator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jira-logger/src/obj/AllEntriesObject.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/jira-logger/obj/Timesheet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jira-logger/src/obj/Entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/jira-logger/obj/Entry.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +63,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../jira-logger/src" />
       <recent name="$PROJECT_DIR$/../jira-logger/test/lib" />
       <recent name="$PROJECT_DIR$/../jira-logger/src/obj" />
       <recent name="$PROJECT_DIR$/../jira-logger/test" />
       <recent name="$PROJECT_DIR$/../jira-logger" />
-      <recent name="$PROJECT_DIR$/../jira-logger/src/fun" />
     </key>
   </component>
   <component name="RunManager">
@@ -224,7 +226,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647309618375</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Jira logging works.">
+      <created>1647313295795</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647313295795</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Minor fixes">
+      <created>1647313764573</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1647313764573</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -250,6 +266,8 @@
     <MESSAGE value="Separated AllEntries class from MainMenu.py" />
     <MESSAGE value="Tested AllEntriesObject.py. Pending TimeLoggerTest" />
     <MESSAGE value="Jira API FUCKING WORKS!!!!! Need to test more" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jira API FUCKING WORKS!!!!! Need to test more" />
+    <MESSAGE value="Jira logging works." />
+    <MESSAGE value="Minor fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor fixes" />
   </component>
 </project>

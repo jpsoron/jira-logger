@@ -1,8 +1,8 @@
 import pandas
 
-from src.obj.Entry import Entry
+from jiralogger.obj.Entry import Entry
 
-class AllEntriesObject:
+class Timesheet:
 
     jira_entries = []
     non_jira_entries = []
