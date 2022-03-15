@@ -22,6 +22,5 @@ setup(
     author_email='jsorondog@gmail.com',
     app=APP,
     data_files=DATA_FILES,
-    options={'py2app': OPTIONS},
     setup_requires=required,
 )
