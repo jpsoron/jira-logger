@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Separated AllEntries class from MainMenu.py">
+    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Tested AllEntriesObject.py. Pending TimeLoggerTest">
       <change beforePath="$PROJECT_DIR$/../jira-logger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jira-logger/lib/cargahstemplate.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jira-logger/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jira-logger/src/MainMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/src/MainMenu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jira-logger/src/fun/JiraTimeLogger.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/src/fun/JiraTimeLogger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jira-logger/src/obj/AllEntries.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/src/obj/AllEntriesObject.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jira-logger/src/obj/AllEntriesObject.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/src/obj/AllEntriesObject.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647188116477</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tested AllEntriesObject.py. Pending TimeLoggerTest">
+      <created>1647308430171</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647308430171</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -235,6 +238,7 @@
     </ignored-roots>
     <MESSAGE value="Implemented JiraTimeLogger" />
     <MESSAGE value="Separated AllEntries class from MainMenu.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Separated AllEntries class from MainMenu.py" />
+    <MESSAGE value="Tested AllEntriesObject.py. Pending TimeLoggerTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tested AllEntriesObject.py. Pending TimeLoggerTest" />
   </component>
 </project>
