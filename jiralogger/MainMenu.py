@@ -1,28 +1,46 @@
-from jiralogger.fun import JiraTimeLogger, TextGenerator
-from jiralogger.obj.Timesheet import Timesheet
+import os
+import pprint
+
+import pandas
+
+from jiralogger.ProcessManager import ProcessManager
+
 
 class MainMenu:
 
-    def __init__(self, email, api_token, organization):
-        self.email = email
-        self.api_token = api_token
-        self.organization = organization
-        self.all_entries = None
+    def __init__(self):
+        self.ROOT_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__), '..'))
+        filepath = self.ROOT_DIR + "/files/credentials.xlsx"
+        cred_file = pandas.read_excel(filepath)
+        self.email = cred_file["Email"][0]
+        self.api_token = cred_file["API Token"][0]
+        self.organization = cred_file["Organization"][0]
+        self.process_manager = ProcessManager(self.email, self.api_token, self.organization)
 
-    def read_timesheet(self, filepath):
-        self.all_entries = Timesheet(filepath)
+    def start(self):
+        print("Welcome to JiraLogger.\n"
+              "Enter credentials in /jiralogger/lib/credentials.xlsx before running\n")
+        filename = input("Enter timesheet filename:")
+        filepath = self.ROOT_DIR + "/files/" + filename
+        self.process_manager.read_timesheet(filepath)
+        response_map = self.process_manager.jira_logger()
+        if response_map is None:
+            print("No response from API. Check if filepath is correct or file is empty.")
+        else:
+            print("Time added to Jira. Request logs:\n")
+            pprint.pprint(response_map)
 
-    def jira_logger(self):
-        entry_response_map = {}
-        if self.all_entries is None:
-            return None
-        responses = JiraTimeLogger.jira_log_time(self.email, self.api_token, self.organization, self.all_entries.get_jira_entries())
-        for i in range(len(responses)):
-            entry_response_map[str(self.all_entries.jira_entries[i].to_string())] = str(responses[i].status_code)
-        return entry_response_map
-
-    def print_timesheet(self):
+    def log_time(self):
+        #Not used
+        filename = input("Enter filename:")
+        filepath = self.ROOT_DIR + "/files/" + filename
+        self.process_manager.read_timesheet(filepath)
         return
 
-    def txt_gen(self):
-        TextGenerator.text_gen(self.all_entries.get_jira_entries(), self.all_entries.get_non_jira_entries())
+    def print_ts(self):
+        #TODO
+        return
+
+
+menu = MainMenu()
+menu.start()
