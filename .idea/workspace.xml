@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Tested AllEntriesObject.py. Pending TimeLoggerTest">
+    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Jira API FUCKING WORKS!!!!! Need to test more">
       <change beforePath="$PROJECT_DIR$/../jira-logger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jira-logger/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jira-logger/src/MainMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/src/MainMenu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jira-logger/src/obj/AllEntriesObject.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/src/obj/AllEntriesObject.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jira-logger/src/obj/Entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jira-logger/src/obj/Entry.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +81,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="test.TimeLoggerTest" />
+      <option name="SCRIPT_NAME" value="test.MainMenuTest" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647308430171</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Jira API FUCKING WORKS!!!!! Need to test more">
+      <created>1647309618375</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647309618375</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -239,6 +249,7 @@
     <MESSAGE value="Implemented JiraTimeLogger" />
     <MESSAGE value="Separated AllEntries class from MainMenu.py" />
     <MESSAGE value="Tested AllEntriesObject.py. Pending TimeLoggerTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tested AllEntriesObject.py. Pending TimeLoggerTest" />
+    <MESSAGE value="Jira API FUCKING WORKS!!!!! Need to test more" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jira API FUCKING WORKS!!!!! Need to test more" />
   </component>
 </project>

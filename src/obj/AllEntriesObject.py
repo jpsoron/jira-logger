@@ -1,5 +1,3 @@
-from datetime import datetime
-
 import pandas
 
 from src.obj.Entry import Entry
@@ -15,6 +13,10 @@ class AllEntriesObject:
 
     def read_entries(self):
         excel_sheet = pandas.read_excel(self.filepath)
+
+        #if sheet_size <= 1:
+        #TODO
+
         for i in range(len(excel_sheet["Date"])):
             date = excel_sheet["Date"][i]
             date = date.strftime('%Y-%m-%d') + "T00:00:00.000+0000"
@@ -37,8 +39,5 @@ class AllEntriesObject:
 
     def print(self):
         for i in range(len(self.jira_entries)):
-            if not self.jira_entries[i].jira_ignore:
-                print("Entry " + str(i+1) + "\n" + str(self.jira_entries[i].get_project_name()) + "-" +
+            print("Entry " + str(i+1) + "\n" + str(self.jira_entries[i].get_project_name()) + "-" +
                       str(self.jira_entries[i].get_issue_no()) + "\n")
-            else:
-                print("Entry " + str(i+1) + "\n" + str(self.jira_entries[i].get_project_name()) + " (Non-Jira)" + "\n")

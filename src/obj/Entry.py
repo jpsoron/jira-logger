@@ -29,3 +29,6 @@ class Entry:
 
     def jira_ignore(self):
         return self.jira_ignore
+
+    def to_string(self):
+        return str(self.date) + " // " + self.project_name + "-" + str(self.issue_no)
