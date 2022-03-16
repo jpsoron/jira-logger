@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Added setup.py">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="venv">
+      <change afterPath="$PROJECT_DIR$/jiralogger/MainMenu.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiralogger/build/MainMenu/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiralogger/build/MainMenu/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiralogger/build/MainMenu/MainMenu.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiralogger/build/MainMenu/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiralogger/build/MainMenu/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiralogger/build/MainMenu/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiralogger/build/MainMenu/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiralogger/build/MainMenu/warn-MainMenu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiralogger/build/MainMenu/xref-MainMenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiralogger/dist/MainMenu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +165,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647359893927</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="V1 ready">
+      <created>1647369820379</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1647369820379</updated>
+    </task>
+    <task id="LOCAL-00010" summary="venv">
+      <created>1647370149935</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1647370149935</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -186,6 +209,8 @@
     <MESSAGE value="Minor fixes" />
     <MESSAGE value="Design/Structure fixes" />
     <MESSAGE value="Added setup.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added setup.py" />
+    <MESSAGE value="V1 ready" />
+    <MESSAGE value="venv" />
+    <option name="LAST_COMMIT_MESSAGE" value="venv" />
   </component>
 </project>
