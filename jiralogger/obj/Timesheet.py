@@ -17,8 +17,8 @@ class Timesheet:
         #if sheet_size <= 1:
         #TODO
 
-        for i in range(len(excel_sheet["Date"])):
-            date = excel_sheet["Date"][i]
+        for i in range(len(excel_sheet["Date (DD/MM/YYYY)"])):
+            date = excel_sheet["Date (DD/MM/YYYY)"][i]
             date = date.strftime('%Y-%m-%d') + "T09:00:00.000-0300"
             if excel_sheet["JiraIgnore"][i] == True:
                 entry = Entry(excel_sheet["Project"][i], excel_sheet["Issue"][i],

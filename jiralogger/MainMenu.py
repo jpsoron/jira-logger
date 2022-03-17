@@ -10,8 +10,8 @@ class MainMenu:
 
     def __init__(self):
         self.ROOT_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__), '..'))
-        filepath = self.ROOT_DIR + "/files/credentials.xlsx"
-        cred_file = pandas.read_excel(filepath)
+        filepath = self.ROOT_DIR + "/files/credentials.csv"
+        cred_file = pandas.read_csv(filepath)
         self.email = cred_file["Email"][0]
         self.api_token = cred_file["API Token"][0]
         self.organization = cred_file["Organization"][0]

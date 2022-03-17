@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="venv">
-      <change beforePath="$PROJECT_DIR$/.idea/jira-logger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jira-logger.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="fixed jiraignore">
+      <change afterPath="$PROJECT_DIR$/files/.~lock.cargahstemplate.xlsx#" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/credentials.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/cargahstemplate.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/files/cargahstemplate.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/credentials.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jiralogger/MainMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/MainMenu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiralogger/MainMenu.spec" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jiralogger/obj/Timesheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/obj/Timesheet.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647370149935</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix hours field and timezone">
+      <created>1647537149384</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1647537149384</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fixed jiraignore">
+      <created>1647538462976</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1647538462976</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -207,6 +222,8 @@
     <MESSAGE value="Added setup.py" />
     <MESSAGE value="V1 ready" />
     <MESSAGE value="venv" />
-    <option name="LAST_COMMIT_MESSAGE" value="venv" />
+    <MESSAGE value="fix hours field and timezone" />
+    <MESSAGE value="fixed jiraignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed jiraignore" />
   </component>
 </project>
