@@ -19,16 +19,16 @@ class Timesheet:
 
         for i in range(len(excel_sheet["Date"])):
             date = excel_sheet["Date"][i]
-            date = date.strftime('%Y-%m-%d') + "T00:00:00.000+0000"
-            if excel_sheet["JiraIgnore"][i] == "TRUE":
+            date = date.strftime('%Y-%m-%d') + "T09:00:00.000-0300"
+            if excel_sheet["JiraIgnore"][i]:
                 entry = Entry(excel_sheet["Project"][i], excel_sheet["Issue"][i],
                               excel_sheet["Title"][i], excel_sheet["Description"][i],
-                              date, excel_sheet["Hours"][i], True)
+                              date, float(excel_sheet["Hours"][i]), True)
                 self.non_jira_entries.append(entry)
             else:
                 entry = Entry(excel_sheet["Project"][i], excel_sheet["Issue"][i],
                               excel_sheet["Title"][i], excel_sheet["Description"][i],
-                              date, excel_sheet["Hours"][i], False)
+                              date, float(excel_sheet["Hours"][i]), False)
                 self.jira_entries.append(entry)
 
     def get_jira_entries(self):

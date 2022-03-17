@@ -19,7 +19,10 @@ class MainMenu:
 
     def start(self):
         print("Welcome to JiraLogger.\n"
-              "Enter credentials in /jiralogger/lib/credentials.xlsx before running\n")
+              "Remember to:\n"
+              "-Enter credentials in /jira-logger/files/credentials.xlsx\n"
+              "-Put timesheet files in /jira-logger/files/\n"
+              "-----------------------------------------------------------\n")
         filename = input("Enter timesheet filename:")
         filepath = self.ROOT_DIR + "/files/" + filename
         self.process_manager.read_timesheet(filepath)
