@@ -20,7 +20,7 @@ class Timesheet:
         for i in range(len(excel_sheet["Date"])):
             date = excel_sheet["Date"][i]
             date = date.strftime('%Y-%m-%d') + "T09:00:00.000-0300"
-            if excel_sheet["JiraIgnore"][i]:
+            if excel_sheet["JiraIgnore"][i] == True:
                 entry = Entry(excel_sheet["Project"][i], excel_sheet["Issue"][i],
                               excel_sheet["Title"][i], excel_sheet["Description"][i],
                               date, float(excel_sheet["Hours"][i]), True)
