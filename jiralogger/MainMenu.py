@@ -20,7 +20,7 @@ class MainMenu:
     def start(self):
         print("Welcome to JiraLogger.\n"
               "Remember to:\n"
-              "-Enter credentials in /jira-logger/files/credentials.xlsx\n"
+              "-Enter credentials in /jira-logger/files/credentials.csv\n"
               "-Put timesheet files in /jira-logger/files/\n"
               "-----------------------------------------------------------\n")
         filename = input("Enter timesheet filename:")

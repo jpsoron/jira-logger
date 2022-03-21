@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Changed credentials to CSV format, other fixes">
+    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Install fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/MainMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/MainMenu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/obj/Entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/obj/Entry.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +193,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647540159643</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Made organization non case sensitive">
+      <created>1647541668456</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1647541668456</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Install fix">
+      <created>1647620881373</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1647620881373</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -226,6 +242,8 @@
     <MESSAGE value="fix hours field and timezone" />
     <MESSAGE value="fixed jiraignore" />
     <MESSAGE value="Changed credentials to CSV format, other fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed credentials to CSV format, other fixes" />
+    <MESSAGE value="Made organization non case sensitive" />
+    <MESSAGE value="Install fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Install fix" />
   </component>
 </project>

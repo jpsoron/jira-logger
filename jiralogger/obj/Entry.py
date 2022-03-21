@@ -31,4 +31,4 @@ class Entry:
         return self.jira_ignore
 
     def to_string(self):
-        return str(self.date) + " // " + self.project_name + "-" + str(self.issue_no)
+        return str(self.date) + " // " + str(self.project_name) + "-" + str(self.issue_no)
