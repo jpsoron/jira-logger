@@ -22,7 +22,8 @@ class ProcessManager:
         return entry_response_map
 
     def print_timesheet(self):
+        #TODO
         return
 
     def txt_gen(self):
-        TextGenerator.text_gen(self.all_entries.get_jira_entries(), self.all_entries.get_non_jira_entries())
+        return TextGenerator.text_gen(self.all_entries.get_jira_entries(), self.all_entries.get_non_jira_entries())

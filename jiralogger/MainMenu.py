@@ -40,9 +40,11 @@ class MainMenu:
         self.process_manager.read_timesheet(filepath)
         return
 
-    def print_ts(self):
-        #TODO
-        return
+    def print_timesheet(self):
+        print(self.process_manager.print_timesheet())
+
+    def txt_gen(self):
+        print(self.process_manager.txt_gen())
 
 
 menu = MainMenu()
