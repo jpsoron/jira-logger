@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="TextGenerator implemented + small fixes">
-      <change afterPath="$PROJECT_DIR$/files/.~lock.sample_timesheet.xlsx#" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/sample_credentials.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/sample_timesheet.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiralogger/fun/TimesheetToString.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Finished and tested TimesheetToString.py and timesheet printing. Added documentation. Minor fixes and code maintenance.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/cargahstemplate.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/credentials.csv" beforeDir="false" afterPath="$PROJECT_DIR$/files/credentials.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiralogger/MainMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/MainMenu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiralogger/ProcessManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/ProcessManager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiralogger/fun/JiraTimeLogger.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/fun/JiraTimeLogger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiralogger/fun/TextGenerator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiralogger/obj/Entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/obj/Entry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiralogger/obj/Timesheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/obj/Timesheet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +66,28 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.TimesheetToStringTest">
+  <component name="RunManager" selected="Python.MainMenu">
+    <configuration name="MainMenu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="jira-logger" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jiralogger" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jiralogger/MainMenu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Run" type="PythonConfigurationType" factoryName="Python">
       <module name="jira-logger" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,6 +132,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MainMenu" />
         <item itemvalue="Python.TimesheetToStringTest" />
       </list>
     </recent_temporary>
@@ -259,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647908198876</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Finished and tested TimesheetToString.py and timesheet printing. Added documentation. Minor fixes and code maintenance.">
+      <created>1648314678288</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1648314678288</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -298,6 +314,7 @@
     <MESSAGE value="Install fix" />
     <MESSAGE value="Type fix" />
     <MESSAGE value="TextGenerator implemented + small fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="TextGenerator implemented + small fixes" />
+    <MESSAGE value="Finished and tested TimesheetToString.py and timesheet printing. Added documentation. Minor fixes and code maintenance." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished and tested TimesheetToString.py and timesheet printing. Added documentation. Minor fixes and code maintenance." />
   </component>
 </project>
