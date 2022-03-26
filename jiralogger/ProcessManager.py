@@ -1,29 +1,36 @@
-from jiralogger.fun import JiraTimeLogger, TextGenerator
+from jiralogger.fun.TimesheetToString import timesheet_tostring
+from jiralogger.fun.JiraTimeLogger import jira_log_time
 from jiralogger.obj.Timesheet import Timesheet
 
 class ProcessManager:
 
+    """
+    ProcessManager class has a Timesheet object. Once read_timesheet() method is called,
+    ProcessManager can log time to Jira or print said timesheet.
+    """
+
+    """Constructor takes Jira credentials as parameters"""
     def __init__(self, email, api_token, organization):
         self.email = email
         self.api_token = api_token
         self.organization = organization
-        self.all_entries = None
+        self.timesheet = None
 
+    """Method to read timesheet in specified filepath and write to a Timesheet object."""
     def read_timesheet(self, filepath):
-        self.all_entries = Timesheet(filepath)
+        self.timesheet = Timesheet(filepath)
 
+    """Method to log timesheet to Jira. Returns map with issue codes and status codes
+    to check if API requests were successful."""
     def jira_logger(self):
         entry_response_map = {}
-        if self.all_entries is None:
+        if self.timesheet is None:
             return None
-        responses = JiraTimeLogger.jira_log_time(self.email, self.api_token, self.organization, self.all_entries.get_jira_entries())
+        responses = jira_log_time(self.email, self.api_token, self.organization, self.timesheet.jira_entries)
         for i in range(len(responses)):
-            entry_response_map[str(self.all_entries.jira_entries[i].to_string())] = str(responses[i].status_code)
+            entry_response_map[self.timesheet.jira_entries[i].to_string()] = str(responses[i].status_code)
         return entry_response_map
 
-    def print_timesheet(self):
-        #TODO
-        return
-
-    def txt_gen(self):
-        return TextGenerator.text_gen(self.all_entries.get_jira_entries(), self.all_entries.get_non_jira_entries())
+    """Method to print timesheet on screen"""
+    def timesheet_tostring(self):
+        return timesheet_tostring(self.timesheet.get_jira_entries(), self.timesheet.get_non_jira_entries())

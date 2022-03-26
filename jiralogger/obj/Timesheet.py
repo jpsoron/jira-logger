@@ -4,9 +4,15 @@ from jiralogger.obj.Entry import Entry
 
 class Timesheet:
 
+    """
+    Timesheet class has all information about worklogs.
+
+    It contains two arrays of entries: jira and non-jira.
+    """
     jira_entries = []
     non_jira_entries = []
 
+    """Constructor method takes filepath as parameter and reads the file"""
     def __init__(self, filepath):
         self.filepath = filepath
         self.read_entries()
@@ -21,13 +27,13 @@ class Timesheet:
             date = excel_sheet["Date (DD/MM/YYYY)"][i]
             date = date.strftime('%Y-%m-%d') + "T09:00:00.000-0300"
             if excel_sheet["JiraIgnore"][i] == True:
-                entry = Entry(excel_sheet["Project"][i], excel_sheet["Issue"][i],
-                              excel_sheet["Title"][i], excel_sheet["Description"][i],
+                entry = Entry(str(excel_sheet["Project"][i]), int(excel_sheet["Issue"][i]),
+                              str(excel_sheet["Title"][i]), str(excel_sheet["Description"][i]),
                               date, float(excel_sheet["Hours"][i]), True)
                 self.non_jira_entries.append(entry)
             else:
-                entry = Entry(excel_sheet["Project"][i], excel_sheet["Issue"][i],
-                              excel_sheet["Title"][i], excel_sheet["Description"][i],
+                entry = Entry(str(excel_sheet["Project"][i]), int(excel_sheet["Issue"][i]),
+                              str(excel_sheet["Title"][i]), str(excel_sheet["Description"][i]),
                               date, float(excel_sheet["Hours"][i]), False)
                 self.jira_entries.append(entry)
 
@@ -39,5 +45,5 @@ class Timesheet:
 
     def print(self):
         for i in range(len(self.jira_entries)):
-            print("Entry " + str(i+1) + "\n" + str(self.jira_entries[i].get_project_name()) + "-" +
-                      str(self.jira_entries[i].get_issue_no()) + "\n")
+            print("Entry " + str(i+1) + "\n" + self.jira_entries[i].get_project_name() + "-" +
+                  str(self.jira_entries[i].get_issue_no()) + "\n")

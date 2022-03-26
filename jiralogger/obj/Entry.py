@@ -1,4 +1,13 @@
 class Entry:
+
+    """
+    Entry class contains information about a single timesheet entry.
+
+    Includes project name, issue number, title, comment, date,
+    amount of hours and a boolean jiraignore flag.
+    """
+
+    """Constructor takes all attributes as parameters"""
     def __init__(self, project_name, issue_no, title, comment, date, hours, jira_ignore):
         self.project_name = project_name
         self.issue_no = issue_no

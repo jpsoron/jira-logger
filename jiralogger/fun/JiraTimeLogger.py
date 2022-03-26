@@ -2,6 +2,11 @@ import requests
 from requests.auth import HTTPBasicAuth
 import json
 
+"""
+Function to log time to Jira using its REST API.
+
+Uses json format to send information to API.
+"""
 def jira_log_time(email, api_token, organization, jira_entries):
     auth = HTTPBasicAuth(email, api_token)
     responses = []

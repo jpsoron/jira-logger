@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Type fix">
+    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="TextGenerator implemented + small fixes">
+      <change afterPath="$PROJECT_DIR$/files/.~lock.sample_timesheet.xlsx#" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/sample_credentials.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/sample_timesheet.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiralogger/fun/TimesheetToString.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/cargahstemplate.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/credentials.csv" beforeDir="false" afterPath="$PROJECT_DIR$/files/credentials.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jiralogger/MainMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/MainMenu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jiralogger/ProcessManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/ProcessManager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiralogger/fun/TextGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/fun/TextGenerator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/fun/JiraTimeLogger.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/fun/JiraTimeLogger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/fun/TextGenerator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/obj/Entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/obj/Entry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/obj/Timesheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/obj/Timesheet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +79,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.TimesheetToStringTest">
     <configuration name="Run" type="PythonConfigurationType" factoryName="Python">
       <module name="jira-logger" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,7 +92,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/TextGeneratorTest.py" />
+      <option name="SCRIPT_NAME" value="jiralogger.MainMenu" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TimesheetToStringTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="jira-logger" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/TimesheetToStringTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,6 +122,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.TimesheetToStringTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -215,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647871121794</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="TextGenerator implemented + small fixes">
+      <created>1647908198876</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1647908198876</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -253,6 +297,7 @@
     <MESSAGE value="Made organization non case sensitive" />
     <MESSAGE value="Install fix" />
     <MESSAGE value="Type fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Type fix" />
+    <MESSAGE value="TextGenerator implemented + small fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="TextGenerator implemented + small fixes" />
   </component>
 </project>
