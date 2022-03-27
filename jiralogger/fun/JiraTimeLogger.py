@@ -19,7 +19,7 @@ def jira_log_time(email, api_token, organization, jira_entries):
     return responses
 
 def log_entry(auth, organization, current_entry, headers):
-    url = "https://" + str(organization) + ".atlassian.net/rest/api/2/issue/" + str(current_entry.get_project_name()) + "-" + str(current_entry.get_issue_no()) + "/worklog"
+    url = "https://" + organization + ".atlassian.net/rest/api/2/issue/" + current_entry.get_project_name() + "-" + str(current_entry.get_issue_no()) + "/worklog"
 
     payload = json.dumps({
         "timeSpentSeconds": current_entry.get_hours() * 3600,

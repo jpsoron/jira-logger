@@ -34,8 +34,9 @@ class MainMenu:
               "-----------------------------------------------------------\n")
         filename = input("Enter timesheet filename:")
         filepath = self.ROOT_DIR + "/files/" + filename
-        self.process_manager.read_timesheet(filepath)
-        i = 0
+        statuscode = self.process_manager.read_timesheet(filepath)
+        if statuscode == -1:
+            print("Failed to read entries in such file.")
         while True:
             print("\n[1] Log hours on Jira\n"
                   "[2] Print timesheet\n")

@@ -19,6 +19,10 @@ class ProcessManager:
     """Method to read timesheet in specified filepath and write to a Timesheet object."""
     def read_timesheet(self, filepath):
         self.timesheet = Timesheet(filepath)
+        if self.timesheet.get_read_status() == -1:
+            return -1
+        else:
+            return 1
 
     """Method to log timesheet to Jira. Returns map with issue codes and status codes
     to check if API requests were successful."""
