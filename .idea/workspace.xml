@@ -4,9 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Can now have empty spaces in timesheet">
+    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Included non jira entry in sample timesheet">
+      <change afterPath="$PROJECT_DIR$/MainMenu.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/MainMenu/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/MainMenu/COLLECT-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/MainMenu/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/MainMenu/MainMenu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/MainMenu/MainMenu.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/MainMenu/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/MainMenu/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/MainMenu/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/MainMenu/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/MainMenu/warn-MainMenu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/MainMenu/xref-MainMenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/MainMenu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiralogger/fun/PostTimesheet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiralogger/fun/ReadTimesheet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiralogger/old/MainMenu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jiralogger/old/obj/Timesheet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/sample_timesheet.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/files/sample_timesheet.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/MainMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/MainMenu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/ProcessManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/old/ProcessManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/fun/JiraTimeLogger.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/old/fun/JiraTimeLogger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/fun/TimesheetToString.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/obj/Entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/old/obj/Entry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/obj/Timesheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/obj/Timesheet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,15 +85,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jiralogger" />
+      <recent name="$PROJECT_DIR$/jiralogger/old" />
+      <recent name="$PROJECT_DIR$/jiralogger/v2" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/test/lib" />
-      <recent name="$PROJECT_DIR$/src/obj" />
-      <recent name="$PROJECT_DIR$/test" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.MainMenu">
-    <configuration name="MainMenu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.MainMenuTest">
+    <configuration name="MainMenuTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jira-logger" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,7 +105,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jiralogger/MainMenu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/MainMenuTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TimesheetTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="TimesheetPostTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jira-logger" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,7 +147,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/TimesheetTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/TimesheetPostTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TimesheetToStringTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="TimesheetReadTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jira-logger" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,7 +168,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/TimesheetToStringTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/TimesheetReadTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,11 +177,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.Run" />
+      <item itemvalue="Python.MainMenuTest" />
+      <item itemvalue="Python.TimesheetReadTest" />
+      <item itemvalue="Python.TimesheetPostTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MainMenu" />
-        <item itemvalue="Python.TimesheetTest" />
-        <item itemvalue="Python.TimesheetToStringTest" />
+        <item itemvalue="Python.MainMenuTest" />
+        <item itemvalue="Python.TimesheetPostTest" />
+        <item itemvalue="Python.TimesheetReadTest" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648394721224</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Included non jira entry in sample timesheet">
+      <created>1648410303129</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1648410303129</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -355,6 +392,7 @@
     <MESSAGE value="Finished and tested TimesheetToString.py and timesheet printing. Added documentation. Minor fixes and code maintenance." />
     <MESSAGE value="README.md in English is ready" />
     <MESSAGE value="Can now have empty spaces in timesheet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Can now have empty spaces in timesheet" />
+    <MESSAGE value="Included non jira entry in sample timesheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Included non jira entry in sample timesheet" />
   </component>
 </project>
