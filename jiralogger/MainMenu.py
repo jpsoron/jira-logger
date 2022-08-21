@@ -21,7 +21,9 @@ class MainMenu:
         self.read_credentials()
         while True:
             print("[1] Read timesheet\n"
-                  "[2] Log timesheet to Jira\n")
+                  "[2] Log timesheet to Jira\n"
+                  "[3] Update credentials\n"
+                  )
             user_input = input()
             if user_input == "1":
                 user_input = input("\nEnter timesheet file name:")
@@ -30,6 +32,8 @@ class MainMenu:
                 self.print_timesheets()
                 user_input = input("Enter timesheet number:")
                 self.post_timesheet(int(user_input)) #TODO chequear que sea numero
+            elif user_input == "3":
+                self.update_credentials()
             else:
                 break
 
@@ -57,28 +61,37 @@ class MainMenu:
             timesheets_string += str(i) + ". " + path + "\n"
         print(timesheets_string)
 
-    """DATA VALIDATION"""
-
     def read_credentials(self):
         filepath = self.files_directory + "credentials.csv"
         credentials_file = pandas.read_csv(filepath)
-        self.email = self.email_validation(str(credentials_file["Email"][0]))
-        self.api_token = self.api_token_validation(credentials_file["API Token"][0])
-        self.organization = self.organization_validation(str(credentials_file["Organization"][0]).lower())
 
-    def email_validation(self, email):
-        if email is None:
-            email = input("Enter Jira email")
-        #TODO escribir mail a CSV de credenciales
-        return email
+        if len(credentials_file["Email"]) > 1:
+            self.email = str(credentials_file["Email"][0])
+            self.api_token = str(credentials_file["API Token"][0])
+            self.organization = str(credentials_file["Organization"][0])
+        else:
+            print("API credentials are empty. Please fill them out below: ")
+            self.update_credentials()
 
-    def api_token_validation(self, api_token):
-        if api_token is None:
-            api_token = input("Enter API token:")
-        #TODO escribir token al CSV"""
-        return api_token
-
-    def organization_validation(self, organization):
-        if organization is None:
-            organization = input("Enter organization:")
-        return organization
+    def update_credentials(self):
+        filepath = self.files_directory + "credentials.csv"
+        credentials_file = pandas.read_csv(filepath)
+        print("Enter your email:")
+        email_input = input()
+        self.email = email_input
+        print("Enter your API token:")
+        api_input = input()
+        self.api_token = api_input
+        print("Enter your organization:")
+        organization_input = input()
+        self.organization = organization_input
+        if len(credentials_file["Email"]) == 2:
+            credentials_file["Email"][0] = email_input
+            credentials_file["API Token"][0] = api_input
+            credentials_file["Organization"][0] = organization_input
+        else:
+            data = pandas.DataFrame({"Email":[email_input],"API Token":api_input,"Organization":organization_input})
+            credentials_file = pandas.concat([credentials_file, data], ignore_index=True)
+        credentials_file.to_csv(filepath, index=False)
+        print("Credentials updated successfully.\n")
+        return

@@ -4,32 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Included non jira entry in sample timesheet">
-      <change afterPath="$PROJECT_DIR$/MainMenu.spec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/MainMenu/Analysis-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/MainMenu/COLLECT-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/MainMenu/EXE-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/MainMenu/MainMenu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/MainMenu/MainMenu.pkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/MainMenu/PKG-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/MainMenu/PYZ-00.pyz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/MainMenu/PYZ-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/MainMenu/base_library.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/MainMenu/warn-MainMenu.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/MainMenu/xref-MainMenu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/MainMenu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiralogger/fun/PostTimesheet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiralogger/fun/ReadTimesheet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiralogger/old/MainMenu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jiralogger/old/obj/Timesheet.py" afterDir="false" />
+    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Mostly finished with V0.2.0 - Design changes, performance improvement, less classes / complexity">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/sample_timesheet.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/files/sample_timesheet.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainMenu.spec" beforeDir="false" afterPath="$PROJECT_DIR$/MainMenu.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/MainMenu/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/MainMenu/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/MainMenu.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/MainMenu/MainMenu.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/MainMenu/PKG-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/MainMenu/PYZ-00.pyz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/MainMenu/PYZ-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/warn-MainMenu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/MainMenu/warn-MainMenu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/xref-MainMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/MainMenu/xref-MainMenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/MainMenu" beforeDir="false" afterPath="$PROJECT_DIR$/dist/MainMenu" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jiralogger/MainMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/MainMenu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiralogger/ProcessManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/old/ProcessManager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiralogger/fun/JiraTimeLogger.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/old/fun/JiraTimeLogger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiralogger/fun/TimesheetToString.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiralogger/obj/Entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/old/obj/Entry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiralogger/obj/Timesheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/obj/Timesheet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -350,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648410303129</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Mostly finished with V0.2.0 - Design changes, performance improvement, less classes / complexity">
+      <created>1660861738118</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1660861738118</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -393,6 +387,7 @@
     <MESSAGE value="README.md in English is ready" />
     <MESSAGE value="Can now have empty spaces in timesheet" />
     <MESSAGE value="Included non jira entry in sample timesheet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Included non jira entry in sample timesheet" />
+    <MESSAGE value="Mostly finished with V0.2.0 - Design changes, performance improvement, less classes / complexity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mostly finished with V0.2.0 - Design changes, performance improvement, less classes / complexity" />
   </component>
 </project>
