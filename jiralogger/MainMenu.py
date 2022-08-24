@@ -14,7 +14,7 @@ class MainMenu:
         self.api_token = ""
         self.email = ""
         current_file_path = abspath(getsourcefile(lambda:0))
-        self.files_directory = current_file_path[:-11] + "\\..\\files\\"
+        self.files_directory = current_file_path[:-11] + "..\\files\\"
         self.timesheets = []
         self.timesheet_paths = []
         return
