@@ -1,8 +1,11 @@
+from jiralogger.fun import PostTimesheet, ReadTimesheet
 import os
 from pprint import pprint
+from inspect import getsourcefile
+from os.path import abspath
 
 import pandas
-from jiralogger.fun import PostTimesheet, ReadTimesheet
+
 
 
 class MainMenu:
@@ -10,10 +13,10 @@ class MainMenu:
         self.organization = ""
         self.api_token = ""
         self.email = ""
-        self.files_directory = os.path.realpath(os.path.join(os.path.dirname(__file__), '')) + "/../files/" #TODO arreglar /../
+        current_file_path = abspath(getsourcefile(lambda:0))
+        self.files_directory = current_file_path[:-11] + "\\..\\files\\"
         self.timesheets = []
         self.timesheet_paths = []
-        print(self.files_directory)
         return
 
     def main_menu(self):
@@ -95,3 +98,7 @@ class MainMenu:
         credentials_file.to_csv(filepath, index=False)
         print("Credentials updated successfully.\n")
         return
+
+
+menu = MainMenu()
+menu.main_menu()
