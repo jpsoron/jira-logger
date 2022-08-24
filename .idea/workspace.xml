@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Initial version with working EXE" />
+    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Bug fix">
+      <change beforePath="$PROJECT_DIR$/dist/MainMenu.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/MainMenu.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/dist/library.zip" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -340,7 +343,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661353585625</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added EXE and shortcut">
+      <created>1661354025698</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1661354025698</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Bug fix">
+      <created>1661354388614</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1661354388614</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -386,6 +403,8 @@
     <MESSAGE value="Included non jira entry in sample timesheet" />
     <MESSAGE value="Mostly finished with V0.2.0 - Design changes, performance improvement, less classes / complexity" />
     <MESSAGE value="Initial version with working EXE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial version with working EXE" />
+    <MESSAGE value="Added EXE and shortcut" />
+    <MESSAGE value="Bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug fix" />
   </component>
 </project>
