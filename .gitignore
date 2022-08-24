@@ -1,6 +1,2 @@
 /test/
 /venv/
-/files/
-
-!/files/sample_credentials.csv
-!/files/sample_timesheet.xlsx
