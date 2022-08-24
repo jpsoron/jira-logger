@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="EXE bug fix">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/sample_credentials.csv" beforeDir="false" />
-    </list>
+    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Minor fixes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -364,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661354485446</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Minor fixes">
+      <created>1661354985981</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1661354985981</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -391,7 +395,6 @@
     <MESSAGE value="Tested AllEntriesObject.py. Pending TimeLoggerTest" />
     <MESSAGE value="Jira API FUCKING WORKS!!!!! Need to test more" />
     <MESSAGE value="Jira logging works." />
-    <MESSAGE value="Minor fixes" />
     <MESSAGE value="Design/Structure fixes" />
     <MESSAGE value="Added setup.py" />
     <MESSAGE value="V1 ready" />
@@ -412,6 +415,7 @@
     <MESSAGE value="Added EXE and shortcut" />
     <MESSAGE value="Bug fix" />
     <MESSAGE value="EXE bug fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="EXE bug fix" />
+    <MESSAGE value="Minor fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor fixes" />
   </component>
 </project>

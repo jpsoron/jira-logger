@@ -33,7 +33,7 @@ class MainMenu:
                 self.read_timesheet(user_input)
             elif user_input == "2":
                 self.print_timesheets()
-                user_input = input("Enter timesheet number:")
+                user_input = input("Select timesheet path from list below:")
                 self.post_timesheet(int(user_input)) #TODO chequear que sea numero
             elif user_input == "3":
                 self.update_credentials()
