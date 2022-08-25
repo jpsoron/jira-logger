@@ -3,5 +3,5 @@ import py2exe
 import jiralogger
 
 setup(
-    console=[{"script" : "./jiralogger/MainMenu.py"}]
+    console=[{"script" : "./jiralogger/MainMenu.py","dest_base" : "JiraLogger"}]
 )

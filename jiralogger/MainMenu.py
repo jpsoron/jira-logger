@@ -68,13 +68,13 @@ class MainMenu:
         filepath = self.files_directory + "credentials.csv"
         credentials_file = pandas.read_csv(filepath)
 
-        if len(credentials_file["Email"]) > 1:
+        if len(credentials_file["Email"]) == 0:
+            print("API credentials are empty. Please fill them out below: ")
+            self.update_credentials()
+        else:
             self.email = str(credentials_file["Email"][0])
             self.api_token = str(credentials_file["API Token"][0])
             self.organization = str(credentials_file["Organization"][0])
-        else:
-            print("API credentials are empty. Please fill them out below: ")
-            self.update_credentials()
 
     def update_credentials(self):
         filepath = self.files_directory + "credentials.csv"
@@ -87,11 +87,11 @@ class MainMenu:
         self.api_token = api_input
         print("Enter your organization:")
         organization_input = input()
-        self.organization = organization_input
+        self.organization = organization_input.lower()
         if len(credentials_file["Email"]) == 2:
             credentials_file["Email"][0] = email_input
             credentials_file["API Token"][0] = api_input
-            credentials_file["Organization"][0] = organization_input
+            credentials_file["Organization"][0] = organization_input.lower()
         else:
             data = pandas.DataFrame({"Email":[email_input],"API Token":api_input,"Organization":organization_input})
             credentials_file = pandas.concat([credentials_file, data], ignore_index=True)

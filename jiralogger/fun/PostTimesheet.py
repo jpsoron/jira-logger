@@ -22,7 +22,7 @@ def post_entry(auth, organization, headers, worklog_entry):
 
     url = "https://" + organization + ".atlassian.net/rest/api/2/issue/" + worklog_entry.project + "-" + str(worklog_entry.issue_num) + "/worklog"
     payload = json.dumps({
-        "timeSpentSeconds": int(worklog_entry.time_spent) * 3600,
+        "timeSpentSeconds": float(worklog_entry.time_spent) * 3600,
         "comment": worklog_entry.comment,
         "started": worklog_entry.date
     })

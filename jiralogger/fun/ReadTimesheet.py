@@ -26,7 +26,7 @@ def read_timesheet(timesheet_path):
             time_zone = date.strftime("%z")
             date_time = date.strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3]
             if time_zone == "":
-                date = date_time + "+0000"
+                date = date_time + "-0300"
             else:
                 date = date_time + time_zone
         if valid and ignore is not True:
