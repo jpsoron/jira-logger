@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="V0.2.0">
-      <change afterPath="$PROJECT_DIR$/dist/JiraLogger.exe" afterDir="false" />
+    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Fixed timezone bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/MainMenu" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/MainMenu.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/dist/library.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/credentials.csv" beforeDir="false" afterPath="$PROJECT_DIR$/files/credentials.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/sample_timesheet.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/files/sample_timesheet.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiralogger/MainMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/MainMenu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiralogger/fun/PostTimesheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/fun/PostTimesheet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiralogger/fun/ReadTimesheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/fun/ReadTimesheet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -387,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661355535794</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Fixed timezone bug">
+      <created>1661451094061</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1661451094061</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -410,7 +410,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Tested AllEntriesObject.py. Pending TimeLoggerTest" />
     <MESSAGE value="Jira API FUCKING WORKS!!!!! Need to test more" />
     <MESSAGE value="Jira logging works." />
     <MESSAGE value="Design/Structure fixes" />
@@ -435,6 +434,7 @@
     <MESSAGE value="EXE bug fix" />
     <MESSAGE value="Minor fixes" />
     <MESSAGE value="V0.2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="V0.2.0" />
+    <MESSAGE value="Fixed timezone bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed timezone bug" />
   </component>
 </project>
