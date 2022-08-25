@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Fixed timezone bug">
+    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Fixed icon">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/credentials.csv" beforeDir="false" afterPath="$PROJECT_DIR$/files/credentials.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/sample_timesheet.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/files/sample_timesheet.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/fun/ReadTimesheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/fun/ReadTimesheet.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -387,7 +386,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661451094061</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Fixed icon">
+      <created>1661453304699</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1661453304699</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Fixed icon">
+      <created>1661453453677</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1661453453677</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -410,7 +423,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Jira API FUCKING WORKS!!!!! Need to test more" />
     <MESSAGE value="Jira logging works." />
     <MESSAGE value="Design/Structure fixes" />
     <MESSAGE value="Added setup.py" />
@@ -435,6 +447,7 @@
     <MESSAGE value="Minor fixes" />
     <MESSAGE value="V0.2.0" />
     <MESSAGE value="Fixed timezone bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed timezone bug" />
+    <MESSAGE value="Fixed icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed icon" />
   </component>
 </project>

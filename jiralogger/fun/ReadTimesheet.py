@@ -21,7 +21,7 @@ def read_timesheet(timesheet_path):
         valid = data_validation(date, time_spent, time_remaining, project)
         if comment is None:
             comment = ""
-        #TODO arregla este chequeo nefasto
+        #TODO agregar campo zona horaria
         if isinstance(date, datetime.datetime):
             time_zone = date.strftime("%z")
             date_time = date.strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3]
