@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Fixed icon">
+    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Added TODOs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/dist/library.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/credentials.csv" beforeDir="false" afterPath="$PROJECT_DIR$/files/credentials.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/sample_timesheet.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/files/sample_timesheet.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jiralogger/fun/ReadTimesheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/fun/ReadTimesheet.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -400,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661453453677</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Added TODOs">
+      <created>1661459392594</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1661459392594</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -423,7 +432,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Jira logging works." />
     <MESSAGE value="Design/Structure fixes" />
     <MESSAGE value="Added setup.py" />
     <MESSAGE value="V1 ready" />
@@ -448,6 +456,7 @@
     <MESSAGE value="V0.2.0" />
     <MESSAGE value="Fixed timezone bug" />
     <MESSAGE value="Fixed icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed icon" />
+    <MESSAGE value="Added TODOs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added TODOs" />
   </component>
 </project>

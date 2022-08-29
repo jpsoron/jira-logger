@@ -9,9 +9,9 @@ from jiralogger.obj.Timesheet import WorklogEntry, Timesheet
 def read_timesheet(timesheet_path):
     worklog_entries = []
     sheet = pandas.read_excel(timesheet_path)
-    size = len(sheet["Date (DD/MM/YYYY)"])
+    size = len(sheet["Date"])
     for i in range(size):
-        date = sheet["Date (DD/MM/YYYY)"][i]
+        date = sheet["Date"][i]
         project = sheet["Project"][i]
         issue_num = sheet["Issue"][i]
         time_spent = sheet["TimeSpent"][i]
