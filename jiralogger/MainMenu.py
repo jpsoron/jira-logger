@@ -1,3 +1,5 @@
+from pathlib import Path
+
 from jiralogger.fun import PostTimesheet, ReadTimesheet
 import os
 from pprint import pprint
@@ -13,8 +15,8 @@ class MainMenu:
         self.organization = ""
         self.api_token = ""
         self.email = ""
-        current_file_path = abspath(getsourcefile(lambda:0))
-        self.files_directory = current_file_path[:-11] + "..\\files\\"
+        current_file_path = os.getcwd()
+        self.files_directory = current_file_path[:10] + "../files/" #TODO ????
         self.timesheets = []
         self.timesheet_paths = []
         return

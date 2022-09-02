@@ -16,7 +16,7 @@ class Timesheet:
         i = 0
         for entry in self.worklog_entries:
             i += 1
-            to_string += "Worklog Entry " + str(i) + ": \nIssue: " + str(entry.project) + "-" + str(int(entry.issue_num)) + "\nDate: " + entry.date + "\nTime spent: " + str(entry.time_spent) + "\nTime remaining: " + str(entry.time_remaining) + "\nComment: " + str(entry.comment) + "\n\n"
+            to_string += "Worklog Entry " + str(i) + ": \nIssue: " + str(entry.project) + "-" + str(int(entry.issue_num)) + "\nDate: " + str(entry.date) + "\nTime spent: " + str(entry.time_spent) + "\nTime remaining: " + str(entry.time_remaining) + "\nComment: " + str(entry.comment) + "\n\n"
         return to_string
 
 class WorklogEntry:

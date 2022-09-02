@@ -22,7 +22,7 @@ def read_timesheet(timesheet_path):
         if comment is None:
             comment = ""
         #TODO agregar campo zona horaria
-        if isinstance(date, datetime.datetime):
+        if not isinstance(date, datetime.datetime):
             time_zone = date.strftime("%z")
             date_time = date.strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3]
             if time_zone == "":
@@ -39,7 +39,7 @@ def read_timesheet(timesheet_path):
 
 def data_validation(date, time_spent, time_remaining, project):
     # Checking required fields
-    if date is None:
+    if date is None or not isinstance(date, datetime.datetime):
         #TODO tambien chequear si fecha esta en formato incorrecto
         return False
     if project is None:
