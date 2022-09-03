@@ -20,10 +20,6 @@ def post_timesheet(email, api_token, organization, timesheet):
         responses.update({worklog_entry.project + str(worklog_entry.issue_num): response.status_code})
     return responses
 
-def validate_non_duplicate(auth, organization, headers, worklog_entry):
-    #TODO implement validation with API GET
-    return
-
 def post_entry(auth, organization, headers, worklog_entry):
     time_zone = worklog_entry.date.strftime("%z")
     date_time = worklog_entry.date.strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3]

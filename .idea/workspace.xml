@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Finally stable!!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/dist/library.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/credentials.csv" beforeDir="false" afterPath="$PROJECT_DIR$/files/credentials.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/sample_timesheet.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/files/sample_timesheet.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/fun/PostTimesheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/fun/PostTimesheet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/fun/ReadTimesheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/fun/ReadTimesheet.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -432,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662170381949</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Finally stable!!">
+      <created>1662170532487</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1662170532487</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="UnknownFeatures">
