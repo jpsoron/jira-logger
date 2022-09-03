@@ -16,7 +16,7 @@ class MainMenu:
         self.api_token = ""
         self.email = ""
         current_file_path = os.getcwd()
-        self.files_directory = current_file_path[:10] + "../files/" #TODO ????
+        self.files_directory = current_file_path + str(Path("/../files/"))
         self.timesheets = []
         self.timesheet_paths = []
         return
@@ -43,7 +43,7 @@ class MainMenu:
                 break
 
     def read_timesheet(self, timesheet_filename):
-        timesheet_path = self.files_directory + timesheet_filename
+        timesheet_path = os.path.join(self.files_directory, timesheet_filename)
         self.timesheet_paths.append(timesheet_path)
         self.timesheets.append(ReadTimesheet.read_timesheet(timesheet_path))
         print("Timesheet read successfully.\n")
@@ -67,7 +67,7 @@ class MainMenu:
         print(timesheets_string)
 
     def read_credentials(self):
-        filepath = self.files_directory + "credentials.csv"
+        filepath = os.path.join(self.files_directory, "credentials.csv")
         credentials_file = pandas.read_csv(filepath)
 
         if len(credentials_file["Email"]) == 0:
@@ -79,7 +79,7 @@ class MainMenu:
             self.organization = str(credentials_file["Organization"][0])
 
     def update_credentials(self):
-        filepath = self.files_directory + "credentials.csv"
+        filepath = os.path.join(self.files_directory, "credentials.csv")
         credentials_file = pandas.read_csv(filepath)
         print("Enter your email:")
         email_input = input()

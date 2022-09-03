@@ -31,9 +31,10 @@ def post_entry(auth, organization, headers, worklog_entry):
         formatted_entry_date = date_time + "-0300"
     else:
         formatted_entry_date = date_time + time_zone
+
     url = "https://" + organization + ".atlassian.net/rest/api/2/issue/" + worklog_entry.project + "-" + str(worklog_entry.issue_num) + "/worklog"
     payload = json.dumps({
-        "timeSpentSeconds": float(worklog_entry.time_spent) * 3600,
+        "timeSpentSeconds": worklog_entry.time_spent * 3600,
         "comment": worklog_entry.comment,
         "started": formatted_entry_date
     })
