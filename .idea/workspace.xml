@@ -4,78 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Added TODOs">
-      <change afterPath="$PROJECT_DIR$/dist/libopenblas.EL2C6PLE4ZYW3ECEVIV3OXXGRN2NRFM2.gfortran-win_amd64.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/JiraLogger.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/JiraLogger.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/cacert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/dist/cacert.pem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/dist/library.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/numpy.core._multiarray_tests.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.core._multiarray_tests.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/numpy.core._multiarray_umath.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.core._multiarray_umath.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/numpy.core._operand_flag_tests.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.core._operand_flag_tests.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/numpy.core._rational_tests.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.core._rational_tests.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/numpy.core._simd.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.core._simd.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/numpy.core._struct_ufunc_tests.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.core._struct_ufunc_tests.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/numpy.core._umath_tests.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.core._umath_tests.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/numpy.fft._pocketfft_internal.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.fft._pocketfft_internal.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/numpy.linalg._umath_linalg.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.linalg._umath_linalg.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/numpy.linalg.lapack_lite.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.linalg.lapack_lite.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/numpy.random._bounded_integers.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.random._bounded_integers.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/numpy.random._common.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.random._common.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/numpy.random._generator.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.random._generator.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/numpy.random._mt19937.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.random._mt19937.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/numpy.random._pcg64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.random._pcg64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/numpy.random._philox.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.random._philox.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/numpy.random._sfc64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.random._sfc64.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/numpy.random.bit_generator.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.random.bit_generator.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/numpy.random.mtrand.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.random.mtrand.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.algos.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.algos.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.arrays.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.arrays.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.groupby.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.groupby.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.hashing.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.hashing.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.hashtable.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.hashtable.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.index.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.index.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.indexing.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.indexing.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.internals.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.internals.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.interval.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.interval.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.join.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.join.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.json.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.json.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.lib.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.lib.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.missing.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.missing.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.ops.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.ops.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.ops_dispatch.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.ops_dispatch.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.parsers.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.parsers.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.properties.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.properties.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.reduction.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.reduction.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.reshape.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.reshape.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.sparse.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.sparse.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.testing.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.testing.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.tslib.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.tslib.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.tslibs.base.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.tslibs.base.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.tslibs.ccalendar.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.tslibs.ccalendar.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.tslibs.conversion.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.tslibs.conversion.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.tslibs.dtypes.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.tslibs.dtypes.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.tslibs.fields.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.tslibs.fields.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.tslibs.nattype.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.tslibs.nattype.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.tslibs.np_datetime.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.tslibs.np_datetime.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.tslibs.offsets.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.tslibs.offsets.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.tslibs.parsing.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.tslibs.parsing.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.tslibs.period.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.tslibs.period.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.tslibs.strptime.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.tslibs.strptime.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.tslibs.timedeltas.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.tslibs.timedeltas.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.tslibs.timestamps.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.tslibs.timestamps.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.tslibs.timezones.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.tslibs.timezones.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.tslibs.tzconversion.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.tslibs.tzconversion.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.tslibs.vectorized.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.tslibs.vectorized.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.window.aggregations.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.window.aggregations.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.window.indexers.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.window.indexers.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas._libs.writers.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas._libs.writers.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/pandas.io.sas._sas.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/pandas.io.sas._sas.pyd" afterDir="false" />
+    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Finally stable!!">
       <change beforePath="$PROJECT_DIR$/files/credentials.csv" beforeDir="false" afterPath="$PROJECT_DIR$/files/credentials.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiralogger/MainMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/MainMenu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiralogger/fun/PostTimesheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/fun/PostTimesheet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiralogger/fun/ReadTimesheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/fun/ReadTimesheet.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -495,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661459392594</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Finally stable!!">
+      <created>1662170381949</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1662170381949</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -518,8 +455,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Jira logging works." />
-    <MESSAGE value="Design/Structure fixes" />
     <MESSAGE value="Added setup.py" />
     <MESSAGE value="V1 ready" />
     <MESSAGE value="venv" />
@@ -544,6 +479,7 @@
     <MESSAGE value="Fixed timezone bug" />
     <MESSAGE value="Fixed icon" />
     <MESSAGE value="Added TODOs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added TODOs" />
+    <MESSAGE value="Finally stable!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finally stable!!" />
   </component>
 </project>
