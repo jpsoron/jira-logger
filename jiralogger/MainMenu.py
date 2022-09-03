@@ -9,7 +9,6 @@ from os.path import abspath
 import pandas
 
 
-
 class MainMenu:
     def __init__(self):
         self.organization = ""
@@ -35,8 +34,8 @@ class MainMenu:
                 self.read_timesheet(user_input)
             elif user_input == "2":
                 self.print_timesheets()
-                user_input = input("Select timesheet path from list below:")
-                self.post_timesheet(int(user_input)) #TODO chequear que sea numero
+                user_input = input("Select timesheet path from list above:")
+                self.post_timesheet(int(user_input)) # TODO chequear que sea numero
             elif user_input == "3":
                 self.update_credentials()
             else:
@@ -52,10 +51,10 @@ class MainMenu:
 
     def post_timesheet(self, timesheet_num):
         responses = PostTimesheet.post_timesheet(self.email, self.api_token, self.organization, self.timesheets[timesheet_num-1])
-        print("Timesheet P0ST successful. Log:\n")
+        print("Timesheet P0STed. Log:")
         pprint(responses)
         i = input("Press enter to continue\n")
-        #TODO validacion de codigos del request
+        # TODO validacion de codigos del request
         return
 
     def print_timesheets(self):

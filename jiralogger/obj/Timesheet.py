@@ -21,12 +21,10 @@ class Timesheet:
 
 class WorklogEntry:
 
-    def __init__(self, ignore, project, issue_num, date, time_spent, time_remaining, comment):
-        self.ignore = ignore
+    def __init__(self, project, issue_num, date, time_spent, time_remaining, comment):
         self.project = project
         self.issue_num = issue_num
         self.date = date
         self.time_spent = time_spent
         self.time_remaining = time_remaining
         self.comment = comment
-

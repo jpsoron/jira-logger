@@ -18,16 +18,16 @@ def read_timesheet(timesheet_path):
 
         # DATA VALIDATION
         date = sheet["Date"][i]
-        if date is None or not isinstance(date, datetime.datetime):
+        if date != date or date is None:
             continue
         project = sheet["Project"][i]
-        if project is None or project != project:
+        if project != project or project is None:
             continue
         issue_num = sheet["Issue"][i]
-        if issue_num is None or issue_num != issue_num:
+        if issue_num != issue_num or issue_num is None:
             continue
         time_spent = sheet["TimeSpent"][i]
-        if time_spent is None or not isinstance(time_spent, numbers.Number):
+        if time_spent != time_spent or time_spent is None:
             continue
 
         time_remaining = sheet["TimeRemaining"][i]
@@ -35,5 +35,5 @@ def read_timesheet(timesheet_path):
         if comment is None:
             comment = ""
         #TODO agregar campo zona horaria
-        worklog_entries.append(WorklogEntry(False, project, int(issue_num), date, time_spent, float(time_remaining), comment))
+        worklog_entries.append(WorklogEntry(project, int(issue_num), date, float(time_spent), float(time_remaining), comment))
     return Timesheet(worklog_entries)
