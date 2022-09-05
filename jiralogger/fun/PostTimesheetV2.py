@@ -8,7 +8,7 @@ import json
 
 def post_timesheet(email, api_token, organization, timesheet):
     auth = HTTPBasicAuth(email, api_token)
-    responses = []
+    response_log = ""
     headers = {
         "Accept": "application/json",
         "Content-Type": "application/json"
@@ -21,18 +21,15 @@ def post_timesheet(email, api_token, organization, timesheet):
         time_spent_seconds = worklog_entry.time_spent * 3600
         comment = worklog_entry.comment
         started_date = worklog_entry.date.strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3] + "-0300"
-
         started_after_param = unix_time_convert(worklog_entry.date - datetime.timedelta(seconds=1))
         started_before_param = unix_time_convert(worklog_entry.date + datetime.timedelta(seconds=1))
 
-        response_key = "{" + started_date + " " + project + "-" + str(issue_num) + ": " + str(comment) + "}"
-
         if validate_non_duplicate(auth, organization, headers, account_id, project, issue_num, time_spent_seconds, comment, started_after_param, started_before_param):
             response = post_entry(auth, organization, headers, project, issue_num, time_spent_seconds, comment, started_date)
-            responses.append("Entry: " + response_key + " Status: " + "{" + str(response.status_code) + "}")
+            response_log += "Entry: {" + started_date + " " + project + "-" + str(issue_num) + ": " + str(comment) + "}" + " Status: " + "{" + str(response.status_code) + "}\n"
         else:
-            responses.append("Entry: " + response_key + " Status: " + "{DUPLICATE ENTRY}")
-    return responses
+            response_log += "Entry: {" + started_date + " " + project + "-" + str(issue_num) + ": " + str(comment) + "}" + " Status: " + "{DUPLICATE ENTRY}\n"
+    return response_log
 
 
 def post_entry(auth, organization, headers, project, issue_num, time_spent_seconds, comment, started_date):
@@ -52,7 +49,6 @@ def post_entry(auth, organization, headers, project, issue_num, time_spent_secon
 
 
 def validate_non_duplicate(auth, organization, headers, account_id, project, issue_num, time_spent_seconds, comment, started_after, started_before):
-    # TODO implement validation with API GET
 
     response = requests.request(
         "GET",
@@ -60,7 +56,7 @@ def validate_non_duplicate(auth, organization, headers, account_id, project, iss
         headers=headers,
         auth=auth
     )
-    # TODO VALIDAR BIEN HS Y MIN
+
     issue_worklogs = json.loads(response.text)["worklogs"]
     for worklog in issue_worklogs:
         if (worklog["author"]["accountId"] == account_id) and (str(worklog["comment"]) == comment) and (worklog["timeSpentSeconds"] == time_spent_seconds):
@@ -73,10 +69,9 @@ def unix_time_convert(timestamp):
 
 
 def get_self_userid(auth, organization, headers):
-    url = "https://" + organization + ".atlassian.net/rest/api/2/myself"
     response = requests.request(
         "GET",
-        url,
+        url="https://" + organization + ".atlassian.net/rest/api/2/myself",
         headers=headers,
         auth=auth
     )

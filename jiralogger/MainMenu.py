@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from jiralogger.fun import PostTimesheet, ReadTimesheet, PostTimesheetV2
+from jiralogger.fun import ReadTimesheet, PostTimesheetV2
 import os
 from pprint import pprint
 from inspect import getsourcefile
@@ -50,10 +50,9 @@ class MainMenu:
         return
 
     def post_timesheet(self, timesheet_num):
-        responses = PostTimesheetV2.post_timesheet(self.email, self.api_token, self.organization, self.timesheets[timesheet_num-1])
+        response_log = PostTimesheetV2.post_timesheet(self.email, self.api_token, self.organization, self.timesheets[timesheet_num-1])
         print("Timesheet P0ST complete. Log:")
-        for response in responses:
-            print(response)
+        print(response_log)
         i = input("Press enter to continue\n")
         # TODO validacion de codigos del request
         return
