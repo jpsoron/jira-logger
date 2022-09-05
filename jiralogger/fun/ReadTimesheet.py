@@ -32,7 +32,7 @@ def read_timesheet(timesheet_path):
 
         time_remaining = sheet["TimeRemaining"][i]
         comment = sheet["Comment"][i]
-        if comment is None:
+        if comment is None or comment != comment:
             comment = ""
         #TODO agregar campo zona horaria
         worklog_entries.append(WorklogEntry(project, int(issue_num), date, float(time_spent), float(time_remaining), comment))

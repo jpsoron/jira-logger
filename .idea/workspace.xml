@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Performance fixes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/JiraLogger.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/JiraLogger.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/dist/library.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/credentials.csv" beforeDir="false" afterPath="$PROJECT_DIR$/files/credentials.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/MainMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/MainMenu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/fun/PostTimesheetV2.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/fun/PostTimesheetV2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/fun/ReadTimesheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/fun/ReadTimesheet.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +74,7 @@
       <recent name="$PROJECT_DIR$/jiralogger/v2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.MainTest">
+  <component name="RunManager" selected="Python.PostTimesheetV2Test">
     <configuration name="MainTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jira-logger" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,6 +88,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/MainTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PostTimesheetV2Test" type="PythonConfigurationType" factoryName="Python">
+      <module name="jira-logger" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/PostTimesheetV2Test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,27 +159,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TimesheetPostV2Test" type="PythonConfigurationType" factoryName="Python">
-      <module name="jira-logger" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/TimesheetPostV2Test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="TimesheetReadTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jira-logger" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,7 +182,7 @@
     </configuration>
     <list>
       <item itemvalue="Python.Run" />
-      <item itemvalue="Python.TimesheetPostV2Test" />
+      <item itemvalue="Python.PostTimesheetV2Test" />
       <item itemvalue="Python.MainTest" />
       <item itemvalue="Python.TimesheetReadTest" />
       <item itemvalue="Python.TimesheetPostTest" />
@@ -453,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662242325091</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Performance fixes">
+      <created>1662242556331</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1662242556331</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="UnknownFeatures">
