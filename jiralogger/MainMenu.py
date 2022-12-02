@@ -1,10 +1,8 @@
 from pathlib import Path
-
-from jiralogger.fun import ReadTimesheet, PostTimesheetV2
-import os
-from pprint import pprint
 from inspect import getsourcefile
 from os.path import abspath
+from jiralogger.fun import ReadTimesheet, PostTimesheet
+import os
 
 import pandas
 
@@ -14,56 +12,40 @@ class MainMenu:
         self.organization = ""
         self.api_token = ""
         self.email = ""
-        current_file_path = os.getcwd()
-        self.files_directory = current_file_path + str(Path("/../files/"))
-        self.timesheets = []
-        self.timesheet_paths = []
+        current_file_path = abspath(getsourcefile(lambda: 0))
+        self.jiralogger_directory = current_file_path.replace("MainMenu.py","")
+        self.files_directory = os.path.join(self.jiralogger_directory + "../files")
         return
 
     def main_menu(self):
         print("WELCOME TO JIRALOGGER\n-------------")
         self.read_credentials()
         while True:
-            print("[1] Read timesheet\n"
-                  "[2] Log timesheet to Jira\n"
-                  "[3] Update credentials\n"
+            print("[1] Log timesheet to Jira\n"
+                  "[2] Update credentials"
                   )
             user_input = input()
             if user_input == "1":
-                user_input = input("\nEnter timesheet file name:")
-                self.read_timesheet(user_input)
+                self.log_timesheet()
             elif user_input == "2":
-                self.print_timesheets()
-                user_input = input("Select timesheet path from list above:")
-                self.post_timesheet(int(user_input)) # TODO chequear que sea numero
-            elif user_input == "3":
                 self.update_credentials()
             else:
                 break
 
-    def read_timesheet(self, timesheet_filename):
-        timesheet_path = os.path.join(self.files_directory, timesheet_filename)
-        self.timesheet_paths.append(timesheet_path)
-        self.timesheets.append(ReadTimesheet.read_timesheet(timesheet_path))
-        print("Timesheet read successfully.\n")
-        #TODO handle null timesheet
-        return
+    def log_timesheet(self):
+        user_input = input("\nEnter timesheet file name: ")
+        timesheet_path = os.path.join(self.files_directory, user_input)
+        timesheet = self.read_timesheet(timesheet_path)
+        self.post_timesheet(timesheet)
 
-    def post_timesheet(self, timesheet_num):
-        response_log = PostTimesheetV2.post_timesheet(self.email, self.api_token, self.organization, self.timesheets[timesheet_num-1])
-        print("Timesheet P0ST complete. Log:")
-        print(response_log)
-        i = input("Press enter to continue\n")
+    def read_timesheet(self, timesheet_path):
+        return ReadTimesheet.read_timesheet(timesheet_path)
+
+    def post_timesheet(self, timesheet):
+        PostTimesheet.post_timesheet(self.email, self.api_token, self.organization, timesheet)
+        print("---Timesheet P0ST complete. Press enter to continue---\n")
         # TODO validacion de codigos del request
         return
-
-    def print_timesheets(self):
-        i = 0
-        timesheets_string = "\n"
-        for path in self.timesheet_paths:
-            i += 1
-            timesheets_string += str(i) + ". " + path + "\n"
-        print(timesheets_string)
 
     def read_credentials(self):
         filepath = os.path.join(self.files_directory, "credentials.csv")

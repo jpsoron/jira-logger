@@ -6,6 +6,6 @@ setup(
     console=[{
         "script" : "./jiralogger/MainMenu.py",
         "dest_base" : "JiraLogger",
-        "icon_resources": [(1, "./jiralogger/tincho.ico")]
+        "icon_resources": [(1, "./lib/tincho.ico")]
         }]
 )

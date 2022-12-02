@@ -16,10 +16,7 @@ def read_timesheet(timesheet_path):
         if sheet["Ignore"][i] == 1:
             continue
 
-        # DATA VALIDATION
-        date = sheet["Date"][i]
-        if date != date or date is None:
-            continue
+        # DATA VALIDATION / CONTROL
         project = sheet["Project"][i]
         if project != project or project is None:
             continue
@@ -28,6 +25,9 @@ def read_timesheet(timesheet_path):
             continue
         time_spent = sheet["TimeSpent"][i]
         if time_spent != time_spent or time_spent is None:
+            continue
+        date = sheet["Date"][i]
+        if date != date or date is None:
             continue
 
         time_remaining = sheet["TimeRemaining"][i]

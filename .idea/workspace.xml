@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Posting Timesheets now checks entries aren't duplicated. Still in testing phase.">
+      <change afterPath="$PROJECT_DIR$/jiralogger/fun/PostTimesheetOLD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jira-logger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jira-logger.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/JiraLogger.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/JiraLogger.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/dist/library.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/credentials.csv" beforeDir="false" afterPath="$PROJECT_DIR$/files/credentials.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jiralogger/MainMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/MainMenu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiralogger/fun/PostTimesheetV2.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/fun/PostTimesheetV2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/fun/PostTimesheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/fun/PostTimesheet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/fun/PostTimesheetV2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/fun/ReadTimesheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/fun/ReadTimesheet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/tincho.ico" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tincho.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +32,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -48,6 +54,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -66,14 +74,35 @@
       <recent name="C:\Users\jsorondo\Projects\jira-logger\jiralogger\fun" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="C:\Users\jsorondo\Projects\jira-logger" />
       <recent name="C:\Users\jsorondo\Projects\jira-logger\jiralogger" />
       <recent name="$PROJECT_DIR$/jiralogger" />
       <recent name="$PROJECT_DIR$/jiralogger/old" />
-      <recent name="$PROJECT_DIR$/jiralogger/v2" />
     </key>
   </component>
   <component name="RunManager" selected="Python.MainMenu">
+    <configuration name="Filepath Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jira-logger" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/FilePathTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MainMenu" type="PythonConfigurationType" factoryName="Python">
       <module name="jira-logger" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,27 +120,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="true" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MainTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="jira-logger" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jiralogger" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/MainTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
@@ -182,13 +190,13 @@
     <list>
       <item itemvalue="Python.MainMenu" />
       <item itemvalue="Python.PostTimesheetV2Test" />
-      <item itemvalue="Python.MainTest" />
+      <item itemvalue="Python.Filepath Test" />
       <item itemvalue="Python.TimesheetReadTest" />
       <item itemvalue="Python.TimesheetPostTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MainTest" />
+        <item itemvalue="Python.Filepath Test" />
         <item itemvalue="Python.TimesheetPostTest" />
         <item itemvalue="Python.TimesheetReadTest" />
       </list>
