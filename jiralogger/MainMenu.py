@@ -44,7 +44,6 @@ class MainMenu:
     def post_timesheet(self, timesheet):
         PostTimesheet.post_timesheet(self.email, self.api_token, self.organization, timesheet)
         print("---Timesheet P0ST complete. Press enter to continue---\n")
-        # TODO validacion de codigos del request
         return
 
     def read_credentials(self):
