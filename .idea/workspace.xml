@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Posting Timesheets now checks entries aren't duplicated. Still in testing phase.">
-      <change beforePath="$PROJECT_DIR$/.idea/jira-logger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jira-logger.iml" afterDir="false" />
+    <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Minor fixes">
+      <change afterPath="$PROJECT_DIR$/jiralogger/fun/OLDPostTimesheet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/JiraLogger.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/JiraLogger.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/dist/library.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/credentials.csv" beforeDir="false" afterPath="$PROJECT_DIR$/files/credentials.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jiralogger/MainMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/MainMenu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/fun/PostTimesheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/jiralogger/fun/PostTimesheet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jiralogger/fun/PostTimesheetOLD.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jiralogger/fun" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -64,6 +63,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jiralogger/fun" />
       <recent name="$PROJECT_DIR$/test" />
       <recent name="C:\Users\jsorondo\Projects\jira-logger\files" />
       <recent name="C:\Users\jsorondo\Projects\jira-logger\jiralogger\obj" />
@@ -78,7 +78,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.MainMenu">
-    <configuration name="Filepath Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="APISessionTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jira-logger" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,7 +90,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/FilePathTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/APISessionTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="APISessionsComparison" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jira-logger" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/APISessionsComparison.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,27 +162,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TimesheetPostTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="jira-logger" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/TimesheetPostTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="TimesheetReadTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jira-logger" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,14 +186,14 @@
     <list>
       <item itemvalue="Python.MainMenu" />
       <item itemvalue="Python.PostTimesheetV2Test" />
-      <item itemvalue="Python.Filepath Test" />
+      <item itemvalue="Python.APISessionsComparison" />
+      <item itemvalue="Python.APISessionTest" />
       <item itemvalue="Python.TimesheetReadTest" />
-      <item itemvalue="Python.TimesheetPostTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Filepath Test" />
-        <item itemvalue="Python.TimesheetPostTest" />
+        <item itemvalue="Python.APISessionsComparison" />
+        <item itemvalue="Python.APISessionTest" />
         <item itemvalue="Python.TimesheetReadTest" />
       </list>
     </recent_temporary>
@@ -476,7 +476,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662340330676</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Minor fixes">
+      <created>1670079954596</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1670079954596</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Minor fixes">
+      <created>1670079962601</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1670079962601</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -515,7 +529,6 @@
     <MESSAGE value="Added EXE and shortcut" />
     <MESSAGE value="Bug fix" />
     <MESSAGE value="EXE bug fix" />
-    <MESSAGE value="Minor fixes" />
     <MESSAGE value="V0.2.0" />
     <MESSAGE value="Fixed timezone bug" />
     <MESSAGE value="Fixed icon" />
@@ -524,6 +537,7 @@
     <MESSAGE value="Ignore field now working" />
     <MESSAGE value="Performance fixes" />
     <MESSAGE value="Posting Timesheets now checks entries aren't duplicated. Still in testing phase." />
-    <option name="LAST_COMMIT_MESSAGE" value="Posting Timesheets now checks entries aren't duplicated. Still in testing phase." />
+    <MESSAGE value="Minor fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor fixes" />
   </component>
 </project>
