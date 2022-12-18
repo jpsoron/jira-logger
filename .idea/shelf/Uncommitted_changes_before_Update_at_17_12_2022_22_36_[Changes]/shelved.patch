@@ -1,0 +1,13 @@
+Index: files/credentials.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Email,API Token,Organization\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/files/credentials.csv b/files/credentials.csv
+--- a/files/credentials.csv	(revision 4818b824a2a324fa516fc8aacf67518a38979192)
++++ b/files/credentials.csv	(date 1671327303653)
+@@ -1,1 +1,2 @@
+ Email,API Token,Organization
++
