@@ -2,4 +2,5 @@ numpy
 pandas~=1.4.1
 requests~=2.27.1
 openpyxl~=3.0.9
-py2exe
+py2exe==0.13.0.0
+pipdeptree

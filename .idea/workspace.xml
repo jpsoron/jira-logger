@@ -5,7 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d423f99c-3a68-432f-abd9-a9f5f63c1d6c" name="Changes" comment="Implemented Requests library's Sessions object - Performance improvements around 50%">
+      <change afterPath="$PROJECT_DIR$/MainMenu.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/MainMenu.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_12_2022_12_01__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_12_2022_12_01__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_12_2022_12_05__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_12_2022_12_05__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_12_2022_22_36__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_12_2022_22_36__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/COLLECT-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/MainMenu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/MainMenu.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/MainMenu.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/PYZ-00.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/Tree-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/Tree-01.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/Tree-02.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/warn-MainMenu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/MainMenu/xref-MainMenu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/JiraLogger.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/JiraLogger.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/cacert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/dist/cacert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/dist/library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/numpy.core._multiarray_tests.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.core._multiarray_tests.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/numpy.core._multiarray_umath.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.core._multiarray_umath.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/numpy.core._operand_flag_tests.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.core._operand_flag_tests.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/numpy.core._rational_tests.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.core._rational_tests.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/numpy.core._simd.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.core._simd.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/numpy.core._struct_ufunc_tests.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.core._struct_ufunc_tests.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/numpy.core._umath_tests.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.core._umath_tests.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/numpy.fft._pocketfft_internal.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.fft._pocketfft_internal.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/numpy.linalg._umath_linalg.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.linalg._umath_linalg.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/numpy.linalg.lapack_lite.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.linalg.lapack_lite.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/numpy.random._bounded_integers.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.random._bounded_integers.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/numpy.random._common.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.random._common.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/numpy.random._generator.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.random._generator.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/numpy.random._mt19937.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.random._mt19937.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/numpy.random._pcg64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.random._pcg64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/numpy.random._philox.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.random._philox.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/numpy.random._sfc64.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.random._sfc64.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/numpy.random.bit_generator.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.random.bit_generator.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/numpy.random.mtrand.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/dist/numpy.random.mtrand.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/credentials.csv" beforeDir="false" afterPath="$PROJECT_DIR$/files/credentials.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +88,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jiralogger/fun" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="jira-logger" is-module-sdk="true">
